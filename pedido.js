@@ -118,7 +118,7 @@
       const num = String((S.pedido && S.pedido.whatsapp) || (S.whatsapp && S.whatsapp.numero) || "").replace(/\D/g, "");
       window.open(`https://wa.me/${num}?text=${encodeURIComponent(linhas.join("\n"))}`, "_blank", "noopener");
       status.className = "form-status campo--inteiro ok";
-      status.textContent = "Открыли WhatsApp с готовым текстом заказа - отправьте сообщение, и мы подтвердим заказ. (Демо-сайт: сообщение уйдёт автору сайта.)";
+      status.textContent = "Открыли WhatsApp с готовым текстом заказа - отправьте сообщение, и мы подтвердим заказ.";
     });
   }
 

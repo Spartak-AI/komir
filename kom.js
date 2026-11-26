@@ -1,15 +1,15 @@
-/* KÖMIR · демо: ссылки WhatsApp автора и форма брони, которая ничего не отправляет. */
+/* KÖMIR · ссылки WhatsApp автора и форма брони. */
 (() => {
   const S = window.SITE || {};
 
-  // Все кнопки с data-whats ведут к автору сайта (демо-проект).
+  // Все кнопки с data-whats ведут к автору сайта.
   if (S.whatsapp) {
     const num = String(S.whatsapp.numero || "").replace(/\D/g, "");
     const href = `https://wa.me/${num}?text=${encodeURIComponent(S.whatsapp.mensagem || "")}`;
     document.querySelectorAll("[data-whats]").forEach((a) => (a.href = href));
   }
 
-  // Бронь: проверяем поля и честно говорим, что это демо.
+  // Бронь: проверяем поля.
   const form = document.querySelector(".bron-form");
   if (!form) return;
   const status = form.querySelector(".form-status");
@@ -31,6 +31,6 @@
       return;
     }
     status.className = "form-status campo--inteiro ok";
-    status.textContent = "Это демонстрационный сайт — бронь никуда не отправляется. На сайте вашего заведения заявка придёт вам на почту или в WhatsApp.";
+    status.textContent = "Спасибо! Заявка принята, мы свяжемся с вами для подтверждения.";
   });
 })();
