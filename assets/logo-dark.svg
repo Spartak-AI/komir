@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 0 396 138" role="img" aria-label="KÖMIR"><style>path,rect{fill:#1E1712}.ember{fill:#D4471B}</style><g transform="translate(0,34)">
+ <path d="M0 0H22V40L50 0H78L42 50L78 100H50L22 60V100H0Z"/>
+ <path fill-rule="evenodd" transform="translate(92,0)" d="M30 0H44A30 30 0 0 1 74 30V70A30 30 0 0 1 44 100H30A30 30 0 0 1 0 70V30A30 30 0 0 1 30 0ZM36 22A14 14 0 0 0 22 36V64A14 14 0 0 0 36 78H38A14 14 0 0 0 52 64V36A14 14 0 0 0 38 22Z"/>
+ <rect class="ember" x="100" y="-30" width="20" height="20" rx="3"/><rect class="ember" x="138" y="-30" width="20" height="20" rx="3"/>
+ <path transform="translate(180,0)" d="M0 100V0H24L40 40L56 0H80V100H58V45L46 75H34L22 45V100Z"/>
+ <rect x="274" y="0" width="22" height="100"/>
+ <path fill-rule="evenodd" transform="translate(310,0)" d="M0 0H46C68 0 76 14 76 30C76 44 69 54 58 58L78 100H53L36 61H22V100H0ZM22 20H44C51 20 54 25 54 30C54 36 51 41 44 41H22Z"/>
+</g></svg>
